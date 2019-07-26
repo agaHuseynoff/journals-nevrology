@@ -1,0 +1,493 @@
+label[for="menuOnTop"] {
+    display: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    background: #b21638;
+    border-radius: 0%;
+    color: #fff;
+    position: fixed;
+    z-index: 1000;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+#menuOnTop {
+    display: none;
+}
+
+.menuOnTopClose {
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    background: #fff;
+    color: #333 !important;
+    padding: 10px;
+    font-size: 20px !important;
+}
+
+.menuOnTopClose {
+    left: -200px;
+    color: #22483d !important;
+}
+
+.showOnMobile {
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width:960px) {
+    #primaryMenuWrp #main-navigation li a {
+        background: #fff !important;
+        color: #000 !important;
+    }
+
+    #primaryMenuWrp #main-navigation li a:hover {
+        background: #fff !important;
+        color: #000 !important;
+    }
+
+    .callQuestion {
+        display: none !important;
+    }
+
+    #newsslide {
+        margin: 0px -5px 27px
+    }
+
+    #newsslide > div {
+        margin: -36px 0 0 -21px
+    }
+
+    #latestnews-content,
+    #newsarticle-content {
+        width: 63%;
+        padding: 1px 6px 9px 25px
+    }
+
+    label[for="menuOnTop"] {
+        display: inline-block;
+    }
+
+    label[for="menuOnTop"] .fa-times {
+        display: none;
+    }
+
+    #main-navigation > li > a {
+        color: #333;
+        font-weight: 400
+    }
+
+    #primaryMenuWrp {
+        -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 0px;
+        margin-top: 0px;
+        position: fixed;
+        left: -270px;
+        top: 0px;
+        background: #fff;
+        margin-bottom: 0px;
+        bottom: 0px;
+        z-index: 999;
+        visibility: hidden;
+        width: 200px;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+    }
+
+    #primaryMenuWrp #main-navigation {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        width: 100%
+    }
+
+    #primaryMenuWrp #main-navigation li {
+        width: 100%;
+    }
+
+    #primaryMenuWrp #main-navigation li a {
+        padding: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        border: 0px;
+        line-height: normal;
+    }
+
+    #primaryMenuWrp #main-navigation .searchBarWrp {
+        display: none;
+    }
+
+    #primaryMenuWrp a {
+        padding-left: 0px;
+    }
+
+    #menuOnTop:checked ~ #headerNavigationContainer #primaryMenuWrp {
+        position: fixed;
+        display: block;
+        left: 0px;
+        visibility: visible;
+        overflow: auto;
+    }
+
+    #menuOnTop:checked ~ label[for="menuOnTop"] {
+        left: 200px;
+        color: #fff;
+        padding: 8px 10px;
+        background: #b21637;
+    }
+
+
+    #menuOnTop:checked ~ label[for="menuOnTop"] .fa-bars {
+        display: none;
+    }
+
+    #menuOnTop:checked ~ label[for="menuOnTop"] .fa-times {
+        display: block;
+    }
+
+    #mainContainer {
+        display: block !important;
+    }
+
+    #main-navigation .dropdown .dropdown-menu {
+        border: 0px;
+        min-width: auto;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        margin-top: 0px;
+        width: 100%;
+        padding-left: 0px;
+        background: transparent;
+        position: relative;
+    }
+
+    #main-navigation .dropdown .dropdown-menu a {
+        padding-left: 30px !important;
+        color: #333
+    }
+
+    #main-navigation .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    #primaryMenuWrp:before {
+        display: none;
+    }
+
+    div.searchBarWrp {
+        display: block;
+        top: 40px;
+        padding: 15px 20px;
+        right: 0px;
+    }
+
+    .journalInfoWrp > div > div:first-child {
+        min-width: 458px;
+    }
+
+    .journals .media-list .media {
+        width: 50%
+    }
+
+    .journals .media-list .media-left,
+    .journals .media-list .media-body {
+        display: block;
+        width: 100%
+    }
+
+    .journals .media-list .media-body {
+        padding-top: 20px
+    }
+
+    .publishingHomeSearch {
+        padding: 70px 0px 60px 0px;
+    }
+
+    .publishingHomeSearch h1 {
+        font-size: 46px;
+    }
+
+    .publishingHomeSearch h2 {
+        font-size: 24px;
+    }
+
+    .publishingSearchContent,
+    .journals {
+        width: 100%
+    }
+
+    .journals {
+        width: 100%
+    }
+
+    .additionalLinks {
+        position: relative;
+        height: auto;
+        clear: both;
+        width: 100%;
+        right: 0px;
+    }
+
+    #main-navigation .dropdown:hover > a {
+        color: #fff
+    }
+
+    .additionalLinks a {
+        padding-right: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .journalInfoCol {
+        padding-top: 130px;
+    }
+
+    .journalInfoCol:not(.indexJournalPage) {
+        height: 280px;
+    }
+
+
+    .container {
+        width: 97% !important;
+    }
+
+    .scrollNow .mainNavigation {
+        padding-top: 0
+    }
+
+    .mainNavigation,
+    .topHeader {
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }
+
+    .mainNavigation .container {
+        padding-left: 5%
+    }
+
+    .journalInfoCol h1 {
+        font-size: 32px
+    }
+
+    .journalInfoCol h1 small {
+        font-size: 15px;
+    }
+
+    #sliderInner img {
+        width: 26%;
+    }
+
+    .indexJournalPage.journalInfoCol {
+        height: auto;
+    }
+
+    .innerHeaderWrp {
+        width: 100%;
+        padding-left: 50px
+    }
+
+    #main-navigation > li > a:before {
+        display: none
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    #topMenuRight .menu {
+        padding-left: 0px;
+    }
+
+    #topMenuRight .menu > li > a {
+        padding: 2px 5px;
+    }
+
+    .journalInfoCol h1 {
+        font-size: 20px;
+    }
+
+
+    .journalInfoCol .carousel {
+        width: 100%;
+        height: auto
+    }
+
+    .socialBread {
+        width: 100%;
+        border-top: 1px solid #ccc;
+    }
+
+    .WrpMediaCnt + .galleryLinksWrp {
+        width: 100%;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .journalInfoWrp > div > div {
+        display: block;
+        padding: 20px 20px;
+    }
+
+    .journalInfoWrp > div > div.infoRelatedJr,
+    .journalInfoWrp > div {
+        width: 100%;
+        display: block;
+    }
+
+    .journals .media-list .media {
+        width: 50%;
+        float: left;
+    }
+
+
+
+    .sliderDescription {
+        font-size: 20px;
+        top: 10px;
+    }
+
+    .journalInfoWrp > div > div:first-child {
+        min-width: 100%;
+    }
+
+
+
+    .journalInfoCol {
+        height: auto;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+
+    .journalInfoCol > div.infojrnl {
+        height: 300px;
+    }
+
+    .ftLinksWrp ul {
+        width: 50%;
+        margin-bottom: 20px !important;
+    }
+
+    .ftLinksWrp > .infoFt {
+        width: 100%;
+        text-align: left !important;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+
+    #imageContentWrp > ul > li {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .journalInfoCol > div {
+        width: 100% !important
+    }
+
+
+
+    .mainNavigation {
+        padding: 5px 20px;
+    }
+
+    div.searchBarWrp {
+        position: relative !important;
+        width: 100%;
+        top: 0px;
+        clear: both;
+    }
+
+    .searchBarWrp input {
+        width: 100%
+    }
+
+    .page_index_journal .issue-toc .thumbnail,
+    .page_issue .thumbnail {
+        width: 100%;
+        float: none;
+    }
+
+    .page_index_journal .issue-toc .thumbnail + .description,
+    .page_issue .thumbnail + .description {
+        margin-left: 0px;
+        margin-top: 10px;
+        clear: both;
+    }
+
+    .publishingHomeSearch h1 {
+        font-size: 30px;
+    }
+
+    .publishingHomeSearch {
+        padding: 50px 0px 40px 0px;
+    }
+
+    .publishingHomeSearch h2 {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+
+    .sliderDescription {
+        padding: 0px 0px;
+        font-size: 14px;
+        top: 5px;
+        line-height: initial;
+    }
+
+    .page_index_site .about_site {
+        padding: 20px 0px;
+        font-size: 15px;
+    }
+
+    .journals .media-list .media {
+        width: 100%
+    }
+
+    .journals .media-list .media .media-left img {
+        max-width: 100%;
+    }
+
+
+
+    .ftLinksWrp ul {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+
+    .footerCopyRight li {
+        display: block !important;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #relatedTitleWrp li {
+        width: 50% !important;
+        margin-right: 0px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    #relatedTitleWrp li img {
+        display: block;
+        text-align: center;
+        margin: 0 auto
+    }
+
+
+
+}
